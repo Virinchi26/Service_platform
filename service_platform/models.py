@@ -6,7 +6,6 @@ class Service(models.Model):
     CATEGORY_CHOICES = [
         ('electrician', 'Electrician'),
         ('plumber', 'Plumber'),
-        # Add more categories as needed
     ]
 
     name = models.CharField(max_length=255)
